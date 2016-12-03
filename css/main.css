@@ -23,6 +23,7 @@ body {
 }
 
 /***** Header *****/
+
 header h1 {
   font-family: "Abril Fatface", cursive;
   font-size: 1.8rem;
@@ -48,6 +49,7 @@ h2 {
 }
 
 /***** Nav *****/
+
 header nav {
   background-color: #D3D3D3;
   line-height: 1.6;
@@ -74,6 +76,7 @@ header li {
 }
 
 /***** About *****/
+
 #about img {
   display: block;
   margin: 0 auto;
@@ -103,6 +106,7 @@ figcaption {
 }
 
 /***** Products *****/
+
 .products img:nth-child(-n+3) {
   display: block;
   margin: 0 auto;
@@ -116,6 +120,7 @@ section .products img {
 }
 
 /***** Hours *****/
+
 table {
   border-collapse: collapse;
   line-height: 1.8;
@@ -152,6 +157,7 @@ table {
 }
 
 /***** Address *****/
+
 section .address {
   text-align: center;
   padding: 0 0 3em;
@@ -162,6 +168,7 @@ section .address p {
 }
 
 /** Button **/
+
 .btn {
   background-color: #333;
   border-radius: 8px;
@@ -184,6 +191,7 @@ section .address p {
 }
 
 /***** Footer *****/
+
 footer {
   background-color: #d2d2d2;
   height: 130px;
@@ -228,11 +236,13 @@ footer {
   }
 
   /**** Header ****/
+
   header img {
     margin-top: 10px;
   }
 
   /**** Nav ****/
+
   nav {
     line-height: 2;
     text-align: center;
@@ -250,11 +260,13 @@ footer {
   }
 
   /**** About ****/
+
   figcaption {
     max-width: 420px;
   }
 
   /**** Footer ****/
+
   footer {
     height: 180px;
   }
@@ -273,6 +285,7 @@ footer {
   }
 
   /**** Nav ****/
+
   header nav ul {
     display: inline-block;
     max-width: 640px;
@@ -290,6 +303,7 @@ footer {
   }
 
   /**** Products ****/
+
   .products img:nth-child(-n+5) {
     background-color: #fff;
     display: inline;
@@ -299,11 +313,13 @@ footer {
   }
 
   /**** Hours ****/
+
   #hours {
     margin: 85% 0 3em;
   }
 
   /**** Button ****/
+
   .btn {
     font-size: 1.1rem;
   }
@@ -314,6 +330,7 @@ footer {
   }
 
   /**** Footer ****/
+
   footer {
     height: 210px;
     padding: 10px 0 0;
@@ -339,6 +356,7 @@ footer {
 }
 
 /*960px*/
+
 @media only screen and (min-width: 60em) {
 
   html {
@@ -347,11 +365,13 @@ footer {
   }
 
   /**** Header ****/
+
   header img {
     width: 110px;
   }
 
   /**** About ****/
+
   #about .about-img {
     display: none;
   }
@@ -361,10 +381,6 @@ footer {
     margin-left: 10%;
     width: 18em;
   }
-
-  /** {
-    transition: all 1s ease;
-}*/
 
   figure {
     margin: 1em;
@@ -413,6 +429,7 @@ footer {
 }
 
 /*1440px*/
+
 @media only screen and (min-width: 90em) {
 
   /**** Header ****/
