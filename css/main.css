@@ -20,8 +20,10 @@ html {
 
 body {
   font-family: "Source Serif Pro", serif;
+  margin: 0;
 }
 
+/***** Header *****/
 header h1 {
   font-family: "Abril Fatface", cursive;
   font-size: 1.8rem;
@@ -44,6 +46,30 @@ header img {
 h2 {
   font-family: "Abril Fatface", cursive;
 }
+
+/***** Nav *****/
+nav {
+  background-color: #D3D3D3;
+  line-height: 1.5;
+  margin: 2rem 0;
+}
+
+header nav ul {
+  display: inline;
+  list-style-type: none;
+  width: 100%;
+}
+
+header nav li a {
+  text-decoration: none;
+  color: #000;
+  font-size: 1.2rem;
+}
+
+header li {
+  text-align: center;
+}
+
 
 .btn {
   background-color: #333;
