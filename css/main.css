@@ -50,8 +50,8 @@ h2 {
 /***** Nav *****/
 nav {
   background-color: #D3D3D3;
-  line-height: 1.5;
-  margin: 2rem 0;
+  line-height: 1.6;
+  margin: 1.5rem 0;
 }
 
 header nav ul {
@@ -61,16 +61,50 @@ header nav ul {
 }
 
 header nav li a {
-  text-decoration: none;
   color: #000;
   font-size: 1.2rem;
+  text-decoration: none;
 }
 
 header li {
   text-align: center;
 }
 
+/***** About *****/
+#about img {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+}
 
+#about h2 {
+  text-align: center;
+}
+
+figure {
+  margin: 1em;
+  position: relative;
+}
+
+figcaption {
+  bottom: 0;
+  left: 0;
+  max-width: 320px;
+  padding: 10px;
+  position: absolute;
+  width: 100%;
+}
+
+.more-text {
+  display: none;
+}
+
+/***** Products *****/
+#products img {
+  width: 100%;
+}
+
+/***** Map Button *****/
 .btn {
   background-color: #333;
   border-radius: 8px;
