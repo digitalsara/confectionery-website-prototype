@@ -258,3 +258,29 @@ footer {
     display: block;
   }
 }
+
+@media only screen and (min-width: 38em) {
+
+  html {
+    font-size: 120%;
+    line-height: 1.4;
+  }
+
+  /**** Nav ****/
+  header nav ul {
+    display: inline-block;
+    max-width: 640px;
+  }
+
+  header nav li a {
+    display: inline-block;
+    font-size: 1rem;
+    float: left;
+    width: 16.666%;
+  }
+
+  header nav a:hover {
+    color: #fff;
+  }
+
+}
