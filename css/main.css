@@ -63,6 +63,7 @@ header nav ul {
 
 header nav li a {
   color: #000;
+  font-family: "Scada", sans-serif;
   font-size: 1.2rem;
   font-weight: 700;
   text-decoration: none;
