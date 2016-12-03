@@ -245,9 +245,16 @@ footer {
     width: 33.333%;
   }
 
-    /**** About ****/
+  /**** About ****/
   figcaption {
     max-width: 420px;
   }
 
+  /**** Footer ****/
+  footer {
+    height: 180px;
+  }
+  .footer > h3 {
+    display: block;
+  }
 }
