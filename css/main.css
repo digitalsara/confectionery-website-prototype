@@ -146,13 +146,22 @@ table {
   float: right;
 }
 
-/***** Map Button *****/
+/***** Address *****/
+section .address {
+  text-align: center;
+}
+
+section .address p {
+  font-size: 1.125rem;
+}
+
+/** Button **/
 .btn {
   background-color: #333;
   border-radius: 8px;
   color: #fff;
   display: inline-block;
-  font-size: 1.125rem;
+  font-size: 1.5rem;
   margin: .3rem;
   padding: .4em .75em .3em;
   text-decoration: none;
@@ -164,10 +173,10 @@ table {
   background-color: #fff;
 }
 
-.btn-ghost:hover {
+/*.btn-ghost:hover {
   background-color: #666;
   color: #fff;
-}
+}*/
 
 .btn-out {
   border: 3px solid #333;
