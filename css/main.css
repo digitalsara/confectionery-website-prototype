@@ -48,7 +48,7 @@ h2 {
 }
 
 /***** Nav *****/
-nav {
+header nav {
   background-color: #D3D3D3;
   line-height: 1.6;
   margin: 1.5rem 0;
@@ -345,6 +345,7 @@ footer {
     font-size: 130%;
     line-height: 1.5;
   }
+
   /**** Header ****/
   header img {
     width: 110px;
@@ -414,6 +415,13 @@ footer {
 /*1440px*/
 @media only screen and (min-width: 90em) {
 
+  /**** Header ****/
+  header img {
+    width: 120px;
+  }
 
+  header h1 {
+    font-size: 2rem;
+  }
 
 }
