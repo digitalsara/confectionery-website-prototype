@@ -375,6 +375,22 @@ footer {
   .more-text {
     display: inline;
   }
+
+  /**** Products ****/
+
+  section .products img:nth-child(n+2) {
+    display: inline;
+    width: 25%;
+  }
+
+  .products img {
+    background: #fff;
+    display: inline;
+    float: left;
+    padding: 1em;
+    transition: none;
+  }
+
   /**** Footer ****/
   footer {
     height: 225px;
