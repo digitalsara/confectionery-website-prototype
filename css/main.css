@@ -30,7 +30,7 @@ header h1 {
   position: absolute;
   left: 50%;
   margin-right: -50%;
-  top: 1.4em;
+  top: 1.1em;
   transform: translate(-50%, -50%);
   z-index: 1000;
 }
@@ -45,6 +45,7 @@ header img {
 
 h2 {
   font-family: "Abril Fatface", cursive;
+  text-align: center;
 }
 
 /***** Nav *****/
@@ -57,12 +58,14 @@ nav {
 header nav ul {
   display: inline;
   list-style-type: none;
+  padding: 0;
   width: 100%;
 }
 
 header nav li a {
   color: #000;
   font-size: 1.2rem;
+  font-weight: 700;
   text-decoration: none;
 }
 
@@ -75,10 +78,6 @@ header li {
   display: block;
   margin: 0 auto;
   width: 100%;
-}
-
-h2 {
-  text-align: center;
 }
 
 figure {
@@ -110,6 +109,11 @@ figcaption {
 section .products img {
   width: 100%;
   display: none;
+}
+
+/***** Hours *****/
+.hours {
+  background-color: #d2d2d2;
 }
 
 /***** Map Button *****/
