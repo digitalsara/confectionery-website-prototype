@@ -79,6 +79,10 @@ header li {
   width: 100%;
 }
 
+#about .circle-img {
+  display: none;
+}
+
 figure {
   margin: 1em;
   position: relative;
@@ -328,3 +332,52 @@ footer {
 }
 
 /*960px*/
+@media only screen and (min-width: 60em) {
+
+  html {
+    font-size: 130%;
+    line-height: 1.5;
+  }
+  /**** Header ****/
+  header img {
+    width: 110px;
+  }
+
+  /**** About ****/
+  #about .about-img {
+    display: none;
+  }
+
+  #about .circle-img {
+    display: inline-block;
+    margin-left: 10%;
+    width: 18em;
+  }
+
+  * {
+    transition: all 1s ease;
+}
+
+  figure {
+    margin: 1em;
+  }
+
+  figcaption {
+    top: 6em;
+    left: 18em;
+    display: block;
+    float: right;
+    margin-left: 10%;
+    max-width: 600px;
+    width: 50%;
+  }
+
+  .more-text {
+    display: inline;
+  }
+  /**** Footer ****/
+  footer {
+    height: 225px;
+  }
+
+}
