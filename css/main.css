@@ -101,8 +101,8 @@ figcaption {
 .products img:nth-child(-n+3) {
   display: block;
   margin: 0 auto;
-  width: 100%;
   padding: 1em;
+  width: 100%;
 }
 
 section .products img {
@@ -173,11 +173,6 @@ section .address p {
   background-color: #fff;
 }
 
-/*.btn-ghost:hover {
-  background-color: #666;
-  color: #fff;
-}*/
-
 .btn-out {
   border: 3px solid #333;
 }
@@ -216,6 +211,9 @@ footer {
 }
 
 /********* MEDIA QUERIES **********/
+
+/*400px*/
+
 @media only screen and (min-width: 25em) {
 
   html {
@@ -259,6 +257,8 @@ footer {
   }
 }
 
+/*608px*/
+
 @media only screen and (min-width: 38em) {
 
   html {
@@ -283,4 +283,48 @@ footer {
     color: #fff;
   }
 
+  /**** Products ****/
+  .products img:nth-child(-n+5) {
+    background-color: #fff;
+    display: inline;
+    float: left;
+    padding: 1em;
+    width: 50%;
+  }
+
+  /**** Button ****/
+  .btn {
+    font-size: 1.1rem;
+  }
+
+  .btn-ghost:hover {
+    background-color: #666;
+    color: #fff;
+  }
+
+  /**** Footer ****/
+  footer {
+    height: 210px;
+    padding: 10px 0 0;
+  }
+
+  .social-icons img {
+    clear: left;
+    float: left;
+    margin: 0 50px;
+    width: 50px;
+  }
+
+  .social-icons h2 {
+    display: block;
+  }
+
+  .social-icons a {
+    color: #000;
+    font-size: .75rem;
+    list-style-type: none;
+    text-decoration: none;
+  }
 }
+
+/*960px*/
