@@ -149,6 +149,7 @@ table {
 /***** Address *****/
 section .address {
   text-align: center;
+  padding: 0 0 30px;
 }
 
 section .address p {
@@ -180,4 +181,37 @@ section .address p {
 
 .btn-out {
   border: 3px solid #333;
+}
+
+/***** Footer *****/
+footer {
+  background-color: #d2d2d2;
+  height: 130px;
+  padding: 25px 0 0;
+}
+
+.footer {
+  text-align: center;
+}
+
+.social-icons {
+  display: inline-block;
+}
+
+.instagram,
+.twitter,
+.facebook {
+  float: left;
+}
+
+.social-icons img {
+  clear: left;
+  float: left;
+  width: 80px;
+  margin: 0 10px;
+}
+
+.social-icons h2,
+.footer > h3 {
+  display: none;
 }
