@@ -18,6 +18,18 @@ html {
   box-sizing: inherit;
 }
 
+body {
+  font-family: "Source Serif Pro", serif;
+}
+
+header h1 {
+  font-family: "Abril Fatface", cursive;
+}
+
+h2 {
+  font-family: "Abril Fatface", cursive;
+}
+
 .btn {
   background-color: #333;
   border-radius: 8px;
