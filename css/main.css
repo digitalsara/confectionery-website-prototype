@@ -293,6 +293,7 @@ section .address p {
   }
 
   header nav a {
+    cursor: pointer;
     display: inline-block;
     font-size: 1rem;
     float: left;
@@ -319,6 +320,7 @@ section .address p {
 
   .social-icons a {
     color: #000;
+    cursor: pointer;
     font-size: .75rem;
     list-style-type: none;
     text-decoration: none;
@@ -343,6 +345,7 @@ section .address p {
   /**** Button ****/
 
   .btn {
+    cursor: pointer;
     font-size: 1.1rem;
   }
 
@@ -391,7 +394,7 @@ section .address p {
   }
 
   figcaption {
-    top: 6em;
+    top: 7em;
     left: 18em;
     display: block;
     float: right;
