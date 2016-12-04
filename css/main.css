@@ -48,10 +48,44 @@ h2 {
   text-align: center;
 }
 
+/***** Footer *****/
+
+footer {
+  background-color: #d2d2d2;
+  height: 130px;
+  padding: 25px 0 0;
+}
+
+.footer {
+  text-align: center;
+}
+
+.social-icons {
+  display: inline-block;
+}
+
+.instagram,
+.twitter,
+.facebook {
+  float: left;
+}
+
+.social-icons img {
+  clear: left;
+  float: left;
+  margin: 0 10px;
+  width: 80px;
+}
+
+.social-icons h2,
+.footer > h3 {
+  display: none;
+}
+
 /***** Nav *****/
 
 header nav {
-  background-color: #D3D3D3;
+  background-color: #d3d3d3;
   line-height: 1.6;
   margin: 1.5rem 0;
 }
@@ -63,16 +97,30 @@ header nav ul {
   width: 100%;
 }
 
-header nav li a {
+header nav a {
   color: #000;
-  font-family: "Scada", sans-serif;
+  font-family: Scada, sans-serif;
   font-size: 1.2rem;
-  font-weight: 700;
+  font-weight: bold;
   text-decoration: none;
 }
 
 header li {
   text-align: center;
+}
+
+/***** Products *****/
+
+section .products img {
+  display: none;
+  width: 100%;
+}
+
+.products img:nth-child(-n+3) {
+  display: block;
+  margin: 0 auto;
+  padding: 1em;
+  width: 100%;
 }
 
 /***** About *****/
@@ -103,20 +151,6 @@ figcaption {
 
 .more-text {
   display: none;
-}
-
-/***** Products *****/
-
-.products img:nth-child(-n+3) {
-  display: block;
-  margin: 0 auto;
-  padding: 1em;
-  width: 100%;
-}
-
-section .products img {
-  display: none;
-  width: 100%;
 }
 
 /***** Hours *****/
@@ -190,43 +224,9 @@ section .address p {
   border: 3px solid #333;
 }
 
-/***** Footer *****/
-
-footer {
-  background-color: #d2d2d2;
-  height: 130px;
-  padding: 25px 0 0;
-}
-
-.footer {
-  text-align: center;
-}
-
-.social-icons {
-  display: inline-block;
-}
-
-.instagram,
-.twitter,
-.facebook {
-  float: left;
-}
-
-.social-icons img {
-  clear: left;
-  float: left;
-  margin: 0 10px;
-  width: 80px;
-}
-
-.social-icons h2,
-.footer > h3 {
-  display: none;
-}
-
 /********* MEDIA QUERIES **********/
 
-/*400px*/
+/* 400px */
 
 @media only screen and (min-width: 25em) {
 
@@ -253,7 +253,7 @@ footer {
     margin: 10px 0 0;
   }
 
-  header nav li a {
+  header nav a {
     display: inline-block;
     float: left;
     width: 33.333%;
@@ -270,12 +270,13 @@ footer {
   footer {
     height: 180px;
   }
+
   .footer > h3 {
     display: block;
   }
 }
 
-/*608px*/
+/* 608px */
 
 @media only screen and (min-width: 38em) {
 
@@ -291,15 +292,36 @@ footer {
     max-width: 640px;
   }
 
-  header nav li a {
+  header nav a {
     display: inline-block;
     font-size: 1rem;
     float: left;
     width: 16.666%;
   }
 
-  header nav a:hover {
-    color: #fff;
+  /**** Footer ****/
+
+  footer {
+    height: 210px;
+    padding: 10px 0 0;
+  }
+
+  .social-icons img {
+    clear: left;
+    float: left;
+    margin: 0 50px;
+    width: 50px;
+  }
+
+  .social-icons h2 {
+    display: block;
+  }
+
+  .social-icons a {
+    color: #000;
+    font-size: .75rem;
+    list-style-type: none;
+    text-decoration: none;
   }
 
   /**** Products ****/
@@ -329,33 +351,15 @@ footer {
     color: #fff;
   }
 
-  /**** Footer ****/
+  /* Hover States */
 
-  footer {
-    height: 210px;
-    padding: 10px 0 0;
+  header nav a:hover {
+    color: #fff;
   }
 
-  .social-icons img {
-    clear: left;
-    float: left;
-    margin: 0 50px;
-    width: 50px;
-  }
-
-  .social-icons h2 {
-    display: block;
-  }
-
-  .social-icons a {
-    color: #000;
-    font-size: .75rem;
-    list-style-type: none;
-    text-decoration: none;
-  }
 }
 
-/*960px*/
+/* 960px */
 
 @media only screen and (min-width: 60em) {
 
@@ -403,36 +407,46 @@ footer {
 
   /**** Products ****/
 
-  section .products img:nth-child(n+2) {
-    display: inline;
-    width: 25%;
-  }
-
-  .products img {
+  section .products img {
     background: #fff;
-    display: inline;
     float: left;
     padding: 1em;
     transition: none;
+    width: 25%;
+  }
+
+  #products img {
+    display: inline;
+  }
+
+  #products img:nth-child(1),
+  #products img:nth-child(2),
+  #products img:nth-child(3),
+  #products img:nth-child(4),
+  #products img:nth-child(5) {
+    width: 25%;
   }
 
   /**** Hours ****/
+
   #hours {
     margin: 45% 0 3em;
   }
 
   /**** Footer ****/
+
   footer {
     height: 225px;
   }
 
 }
 
-/*1440px*/
+/* 1440px */
 
 @media only screen and (min-width: 90em) {
 
   /**** Header ****/
+
   header img {
     width: 120px;
   }
