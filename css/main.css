@@ -19,7 +19,7 @@ html {
 }
 
 body {
-  background-color: #FFE8F1;
+  background-color: #ffe8f1;
   color: #fff;
   margin: 0;
 }
@@ -55,7 +55,7 @@ h2 {
 /***** Footer *****/
 
 footer {
-  background-color: #CE4671;
+  background-color: #ce4671;
   height: 130px;
   padding: 25px 0 0;
 }
@@ -90,7 +90,7 @@ footer {
 /***** Nav *****/
 
 header nav {
-  background-color: #CE4671;
+  background-color: #ce4671;
   line-height: 1.6;
   margin: 1.5rem 0;
 }
@@ -170,7 +170,7 @@ table {
 }
 
 .hours {
-  background-color: #CE4671;
+  background-color: #ce4671;
   margin: 2rem 0;
   padding: .5em 0 2em;
 }
@@ -211,7 +211,7 @@ section .address p {
 /** Button **/
 
 .btn {
-  background-color: #8E7565;
+  background-color: #8e7565;
   border-radius: 8px;
   color: #fff;
   display: inline-block;
@@ -224,7 +224,7 @@ section .address p {
 
 .btn-ghost {
   color: #fff;
-  background-color: #8E7565;
+  background-color: #8e7565;
 }
 
 .btn-out {
@@ -340,7 +340,7 @@ section .address p {
   /**** Products ****/
 
   .products img:nth-child(-n+5) {
-    background-color: #FFE8F1;
+    background-color: #ffe8f1;
     display: inline;
     float: left;
     padding: 1em;
@@ -361,7 +361,7 @@ section .address p {
   }
 
   .btn-ghost:hover {
-    background-color: #CFFFBA;
+    background-color: #cfffba;
     color: #472807;
   }
 
@@ -423,7 +423,7 @@ section .address p {
   /**** Products ****/
 
   section .products img {
-    background-color: #FFE8F1;
+    background-color: #ffe8f1;
     float: left;
     padding: 1em;
     transition: none;
@@ -544,8 +544,7 @@ section .address p {
   }
 
   #address h3 {
-    color: #CE4671;
+    color: #ce4671;
     display: inline;
-    padding: -10em;
   }
 }
