@@ -1,1 +1,13 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256"><title>placeholder</title><polygon points="128 20.6 252 235.4 4 235.4 128 20.6" fill="#e2e2e2" stroke="#666" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/><line x1="4" y1="235.4" x2="190" y2="128" fill="none" stroke="#666" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/><line x1="252" y1="235.4" x2="66" y2="128" fill="none" stroke="#666" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/></svg>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 256 256" style="enable-background:new 0 0 256 256;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#8E7565;stroke:#CFFFBA;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;}
+	.st1{fill:none;stroke:#CFFFBA;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;}
+</style>
+<title>placeholder</title>
+<polygon class="st0" points="128,20.6 252,235.4 4,235.4 "/>
+<line class="st1" x1="4" y1="235.4" x2="190" y2="128"/>
+<line class="st1" x1="252" y1="235.4" x2="66" y2="128"/>
+</svg>

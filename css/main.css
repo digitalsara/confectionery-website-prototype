@@ -19,6 +19,8 @@ html {
 }
 
 body {
+  background-color: #FFE8F1;
+  color: #fff;
   margin: 0;
 }
 
@@ -27,6 +29,7 @@ body {
 header h1 {
   font-family: "Abril Fatface", cursive;
   font-size: 1.8rem;
+  color: #472807;
   position: absolute;
   left: 50%;
   margin-right: -50%;
@@ -44,6 +47,7 @@ header img {
 }
 
 h2 {
+  color: #472807;
   font-family: "Abril Fatface", cursive;
   text-align: center;
 }
@@ -51,7 +55,7 @@ h2 {
 /***** Footer *****/
 
 footer {
-  background-color: #d2d2d2;
+  background-color: #CE4671;
   height: 130px;
   padding: 25px 0 0;
 }
@@ -79,13 +83,14 @@ footer {
 
 .social-icons h2,
 .footer > h3 {
+  color: #fff;
   display: none;
 }
 
 /***** Nav *****/
 
 header nav {
-  background-color: #d3d3d3;
+  background-color: #CE4671;
   line-height: 1.6;
   margin: 1.5rem 0;
 }
@@ -98,7 +103,7 @@ header nav ul {
 }
 
 header nav a {
-  color: #000;
+  color: #fff;
   font-family: Scada, sans-serif;
   font-size: 1.2rem;
   font-weight: bold;
@@ -165,17 +170,18 @@ table {
 }
 
 .hours {
-  background-color: #d2d2d2;
+  background-color: #CE4671;
   margin: 2rem 0;
   padding: .5em 0 2em;
 }
 
 .hours h2 {
+  color: #fff;
   padding: 8px 0 0;
 }
 
 .hours tr {
-  border-bottom: 1.45px solid #000;
+  border-bottom: 1.45px solid #fff;
 }
 
 .hours tr:last-child {
@@ -198,13 +204,14 @@ section .address {
 }
 
 section .address p {
+  color: #472807;
   font-size: 1.125rem;
 }
 
 /** Button **/
 
 .btn {
-  background-color: #333;
+  background-color: #8E7565;
   border-radius: 8px;
   color: #fff;
   display: inline-block;
@@ -216,12 +223,12 @@ section .address p {
 }
 
 .btn-ghost {
-  color: #666;
-  background-color: #fff;
+  color: #fff;
+  background-color: #8E7565;
 }
 
 .btn-out {
-  border: 3px solid #333;
+  border: 3px solid #472807;
 }
 
 /********* MEDIA QUERIES **********/
@@ -329,7 +336,7 @@ section .address p {
   /**** Products ****/
 
   .products img:nth-child(-n+5) {
-    background-color: #fff;
+    background-color: #FFE8F1;
     display: inline;
     float: left;
     padding: 1em;
@@ -350,14 +357,14 @@ section .address p {
   }
 
   .btn-ghost:hover {
-    background-color: #666;
-    color: #fff;
+    background-color: #CFFFBA;
+    color: #472807;
   }
 
   /* Hover States */
 
   header nav a:hover {
-    color: #fff;
+    color: #472807;
   }
 
 }
@@ -394,6 +401,7 @@ section .address p {
   }
 
   figcaption {
+    color: #472807;
     top: 7em;
     left: 18em;
     display: block;
@@ -411,7 +419,7 @@ section .address p {
   /**** Products ****/
 
   section .products img {
-    background: #fff;
+    background-color: #FFE8F1;
     float: left;
     padding: 1em;
     transition: none;
