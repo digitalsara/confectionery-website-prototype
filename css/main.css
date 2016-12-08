@@ -431,21 +431,23 @@ section .address p {
   }
 
   #products img {
-    display: inline;
+    float: left;
+    width: 25%;
   }
 
-  #products img:nth-child(1),
+  /*#products img:nth-child(1),
   #products img:nth-child(2),
   #products img:nth-child(3),
   #products img:nth-child(4),
-  #products img:nth-child(5) {
+  #products img:nth-child(5),
+  #products img:nth-child(6) {
     width: 25%;
-  }
+  }*/
 
   /**** Hours ****/
 
   #hours {
-    margin: 45% 0 3em;
+    margin: 30% 0 3em;
   }
 
   /**** Footer ****/
@@ -468,6 +470,43 @@ section .address p {
 
   header h1 {
     font-size: 2rem;
+  }
+
+  /**** About ****/
+
+  #about .circle-img {
+    margin-left: 25%;
+  }
+
+  figcaption {
+    left: 30em;
+  }
+
+  /**** Products ****/
+
+  #products img {
+    display: inline;
+    width: 25%;
+  }
+
+  #products img:nth-child(6) {
+    float: right
+  }
+
+  /**** Hours ****/
+
+  #hours {
+    margin: 45% 0 3em;
+  }
+
+}
+
+/* 2000px */
+
+@media only screen and (min-width: 125em) {
+
+  figcaption {
+    left: 35em;
   }
 
 }
