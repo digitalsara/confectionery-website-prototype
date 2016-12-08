@@ -292,7 +292,7 @@ section .address p {
 @media only screen and (min-width: 38em) {
 
   html {
-    font-size: 120%;
+    font-size: 110%;
     line-height: 1.4;
   }
 
@@ -347,6 +347,10 @@ section .address p {
     width: 50%;
   }
 
+  #products img:nth-child(4) {
+    float: right;
+  }
+
   /**** Hours ****/
 
   #hours {
@@ -378,7 +382,7 @@ section .address p {
 @media only screen and (min-width: 60em) {
 
   html {
-    font-size: 130%;
+    font-size: 120%;
     line-height: 1.5;
   }
 
@@ -452,6 +456,10 @@ section .address p {
 /* 1440px */
 
 @media only screen and (min-width: 90em) {
+
+  html {
+    font-size: 130%;
+  }
 
   /**** Header ****/
 
