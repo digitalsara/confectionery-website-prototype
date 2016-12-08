@@ -166,7 +166,7 @@ table {
   margin-left: auto;
   margin-right: auto;
   max-width: 500px;
-
+  width: 80%;
 }
 
 .hours {
@@ -206,6 +206,10 @@ section .address {
 section .address p {
   color: #472807;
   font-size: 1.125rem;
+}
+
+#address h3 {
+  display: none;
 }
 
 /** Button **/
@@ -280,10 +284,6 @@ section .address p {
 
   .footer > h3 {
     display: block;
-  }
-
-  #address h3 {
-    display: none;
   }
 }
 
